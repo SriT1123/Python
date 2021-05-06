@@ -8,10 +8,10 @@ driver.minimize_window()
 driver.get('https://parents.robbinsville.k12.nj.us/genesis/parents?tab1=studentdata&tab2=gradebook&tab3=weeklysummary&studentid=230658&action=form')
 #entering username
 user_box = driver.find_element_by_xpath('//*[@id="j_username"]')
-user_box.send_keys("23tanakalas@rvilleschools.org")
+user_box.send_keys("Enter your Email here")
 #entering password
 pass_box = driver.find_element_by_xpath('//*[@id="j_password"]')
-pass_box.send_keys("23Heenan")
+pass_box.send_keys("Enter Your Password here")
 
 button = driver.find_element_by_xpath('/html/body/form/div/div[2]/input[1]')
 button.click()
